@@ -33,3 +33,102 @@ PermissionError: [Errno 13] Permission denied: '/home/alex/.dbt/profiles.yml'
 [0m14:02:42.630733 [debug] [MainThread]: Tracking: do not track
 [0m14:03:12.490245 [info ] [MainThread]: A project called rittman_stackoverflow_dbt already exists here.
 [0m14:03:12.491393 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-15 14:11:00.290995 | bbfbb649-cab7-406d-8daf-c7666a0f506d ==============================
+[0m14:11:00.291002 [info ] [MainThread]: Running with dbt=1.2.1
+[0m14:11:00.291231 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/alex/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m14:11:00.291314 [debug] [MainThread]: Tracking: do not track
+[0m14:11:00.297057 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m14:11:00.306082 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m14:11:00.311510 [debug] [MainThread]: Parsing macros/etc.sql
+[0m14:11:00.312879 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m14:11:00.331000 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m14:11:00.332654 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m14:11:00.333113 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m14:11:00.333354 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m14:11:00.333606 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m14:11:00.334053 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m14:11:00.335302 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m14:11:00.335697 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m14:11:00.336078 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m14:11:00.336513 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m14:11:00.337344 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m14:11:00.337858 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m14:11:00.338321 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m14:11:00.339195 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m14:11:00.339527 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m14:11:00.341403 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m14:11:00.343178 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m14:11:00.346132 [debug] [MainThread]: Parsing macros/materializations/copy.sql
+[0m14:11:00.348090 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m14:11:00.349084 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m14:11:00.360382 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m14:11:00.363456 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m14:11:00.368568 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m14:11:00.369158 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m14:11:00.369740 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m14:11:00.370583 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m14:11:00.371085 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m14:11:00.372778 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m14:11:00.382556 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m14:11:00.389531 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m14:11:00.393748 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m14:11:00.396522 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m14:11:00.397826 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m14:11:00.399443 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m14:11:00.407166 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m14:11:00.408018 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m14:11:00.408884 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m14:11:00.410229 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m14:11:00.410790 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m14:11:00.411403 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m14:11:00.411862 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m14:11:00.412673 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m14:11:00.413161 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m14:11:00.413768 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m14:11:00.416842 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m14:11:00.417912 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m14:11:00.419026 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m14:11:00.419716 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m14:11:00.420299 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m14:11:00.420899 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m14:11:00.421592 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m14:11:00.422195 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m14:11:00.422712 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m14:11:00.424022 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m14:11:00.424650 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m14:11:00.425239 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m14:11:00.425946 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m14:11:00.426463 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m14:11:00.426968 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m14:11:00.428219 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m14:11:00.430308 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m14:11:00.433308 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m14:11:00.434570 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m14:11:00.435302 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m14:11:00.437161 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m14:11:00.438711 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m14:11:00.441730 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m14:11:00.442566 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m14:11:00.451279 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m14:11:00.453690 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m14:11:00.461966 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m14:11:00.467023 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m14:11:00.467992 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m14:11:00.470403 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m14:11:00.471370 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m14:11:00.478176 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m14:11:00.479086 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m14:11:00.488081 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m14:11:00.494384 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m14:11:00.498097 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m14:11:00.507751 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m14:11:00.659361 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.rittman_stackoverflow_dbt.example
+
+[0m14:11:00.665059 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m14:11:00.665701 [info ] [MainThread]: 
+[0m14:11:00.665871 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m14:11:00.669727 [debug] [MainThread]: Flushing usage events
