@@ -1,0 +1,35 @@
+
+
+============================== 2022-09-15 14:00:36.421343 | 307ffd53-e884-4ca4-b189-3491e614824b ==============================
+[0m14:00:36.421351 [info ] [MainThread]: Running with dbt=1.2.1
+[0m14:00:36.421587 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/alex/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m14:00:36.421675 [debug] [MainThread]: Tracking: do not track
+[0m14:01:09.598171 [debug] [MainThread]: Starter project path: /home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:02:09.791062 [debug] [MainThread]: Flushing usage events
+[0m14:02:09.791916 [error] [MainThread]: Encountered an error:
+[Errno 13] Permission denied: '/home/alex/.dbt/profiles.yml'
+[0m14:02:09.793861 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/main.py", line 191, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/main.py", line 238, in run_from_args
+    results = task.run()
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/task/init.py", line 326, in run
+    self.create_profile_from_target(adapter, profile_name=project_name)
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/task/init.py", line 205, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/task/init.py", line 192, in create_profile_from_profile_template
+    self.write_profile(profile, profile_name)
+  File "/home/alex/virtualenvs/dbt-bq/lib/python3.10/site-packages/dbt/task/init.py", line 174, in write_profile
+    with open(profiles_filepath, "r+") as f:
+PermissionError: [Errno 13] Permission denied: '/home/alex/.dbt/profiles.yml'
+
+
+
+============================== 2022-09-15 14:02:42.630427 | 42f43229-a6a8-466f-8781-79bf66e480ba ==============================
+[0m14:02:42.630434 [info ] [MainThread]: Running with dbt=1.2.1
+[0m14:02:42.630650 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/alex/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m14:02:42.630733 [debug] [MainThread]: Tracking: do not track
+[0m14:03:12.490245 [info ] [MainThread]: A project called rittman_stackoverflow_dbt already exists here.
+[0m14:03:12.491393 [debug] [MainThread]: Flushing usage events
